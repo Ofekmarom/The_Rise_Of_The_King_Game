@@ -10,7 +10,7 @@ using UnityEngine.UI;
 /// </summary>
 public class PreviewManager : MonoBehaviour
 {
-    // Reference to the button that toggles(מחליף) the preview image visibility
+    // Reference to the button that toggles the preview image visibility
     public Button previewButton;
 
     // Reference to the preview image that will be shown or hidden

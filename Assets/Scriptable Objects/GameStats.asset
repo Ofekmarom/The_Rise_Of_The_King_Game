@@ -16,60 +16,60 @@ MonoBehaviour:
   - gameName: ArrangeGame
     stages:
     - stageName: King's_Room_L1
-      score: 98
-      time: 12.359863
-      bestScore: 99
-      bestTime: 5.471283
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: King's_Room_L2
-      score: 99
-      time: 5.468231
-      bestScore: 99
-      bestTime: 5.468231
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: King's_Room_L3
-      score: 97
-      time: 15.46582
-      bestScore: 97
-      bestTime: 15.46582
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
   - gameName: MazeGame
     stages:
     - stageName: level1
-      score: 96
-      time: 23.372017
-      bestScore: 96
-      bestTime: 23.372017
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: level2
-      score: 97
-      time: 29.906708
-      bestScore: 97
-      bestTime: 29.906708
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: level3
-      score: 95
-      time: 61.60698
-      bestScore: 95
-      bestTime: 61.60698
+      score: 0
+      time: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
   - gameName: DefendGame
     stages:
     - stageName: Invaders1
-      score: 50
+      score: 0
       time: 0
-      bestScore: 50
-      bestTime: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: Invaders2
-      score: 60
+      score: 0
       time: 0
-      bestScore: 60
-      bestTime: 0
+      bestScore: 0
+      bestTime: 3.4028235e+38
     - stageName: Invaders3
       score: 0
       time: 0
       bestScore: 0
       bestTime: 3.4028235e+38
-  diamond: 1
-  witchStick: 1
-  crown: 1
-  isDiamondDisplayed: 1
-  isWitchStickDisplayed: 1
-  isCrownDisplayed: 1
-  diamondThreshold: 90
-  witchStickThreshold: 90
-  crownThreshold: 90
+  diamond: 0
+  witchStick: 0
+  crown: 0
+  isDiamondDisplayed: 0
+  isWitchStickDisplayed: 0
+  isCrownDisplayed: 0
+  diamondThreshold: 95
+  witchStickThreshold: 95
+  crownThreshold: 95

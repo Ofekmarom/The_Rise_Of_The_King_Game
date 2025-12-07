@@ -62,7 +62,7 @@ public class SceneManagement : MonoBehaviour
 
         if (instance != null && instance != this)
         {
-            Debug.LogWarning("[SceneManagement] Another instance exists. Checking for match...");
+            Debug.Log("[SceneManagement] Another instance exists. Checking for match...");
 
             if (instance.gameObject != this.gameObject && instance.GetType() == this.GetType())
             {

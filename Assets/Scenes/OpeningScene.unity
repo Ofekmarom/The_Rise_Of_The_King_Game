@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1062645}
-  VideoName: Trailer The Rise Of The King.mp4
+  videoName: The Rise Of The King Trailer.mp4
 --- !u!1 &143679275
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.89, y: 0.2}
   m_AnchorMax: {x: 0.89, y: 0.2}
-  m_AnchoredPosition: {x: -124.099976, y: 21.029999}
+  m_AnchoredPosition: {x: -124.09985, y: 21.03003}
   m_SizeDelta: {x: 113, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143679277
@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 381451156}
   - component: {fileID: 381451159}
   - component: {fileID: 381451160}
+  - component: {fileID: 381451161}
   m_Layer: 5
   m_Name: EnterGameButton
   m_TagString: Untagged
@@ -383,7 +384,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.32156864, g: 0.73333335, b: 0.93333334, a: 1}
@@ -449,7 +450,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &381451158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -488,8 +489,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.5396226, g: 0.5202776, b: 0.5202776, a: 0.5}
-  m_EffectDistance: {x: 5.78, y: 4.64}
+  m_EffectDistance: {x: 8.68, y: 6.22}
   m_UseGraphicAlpha: 1
+--- !u!95 &381451161
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381451154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f2648a168f369848997e7a02f59e87e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &400763248
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +525,7 @@ GameObject:
   - component: {fileID: 400763253}
   - component: {fileID: 400763252}
   - component: {fileID: 400763251}
+  - component: {fileID: 400763254}
   m_Layer: 5
   m_Name: Skip_button
   m_TagString: Untagged
@@ -547,7 +571,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.67058825, g: 1, b: 0.8392157, a: 1}
@@ -622,6 +646,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400763248}
   m_CullTransparentMesh: 1
+--- !u!95 &400763254
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400763248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac745ee4d1e21a448a7dac7a341e42f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &978244533
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +954,7 @@ GameObject:
   - component: {fileID: 1440294078}
   - component: {fileID: 1440294077}
   - component: {fileID: 1440294080}
+  - component: {fileID: 1440294081}
   m_Layer: 5
   m_Name: PlayVideo_button
   m_TagString: Untagged
@@ -954,7 +1001,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.32156864, g: 0.73333335, b: 0.93333334, a: 1}
@@ -1020,7 +1067,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &1440294079
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1042,8 +1089,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.5396226, g: 0.5202776, b: 0.5202776, a: 0.5}
-  m_EffectDistance: {x: 5.78, y: 4.64}
+  m_EffectDistance: {x: 8.75, y: 6.86}
   m_UseGraphicAlpha: 1
+--- !u!95 &1440294081
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440294075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac745ee4d1e21a448a7dac7a341e42f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1713545249
 GameObject:
   m_ObjectHideFlags: 0
